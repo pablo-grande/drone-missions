@@ -45,12 +45,6 @@ Simulation.condition_factors = {
 
 
 signal_quality, node_list = map_utils.create_map_and_nodes(map_size, number_of_nodes)
-node_list = []
-for index, coord in enumerate(selected_coords):
-    x, y = coord
-    node_list.append(
-        (x, y, signal_quality[x, y])
-    )
 test.instance_data["node_list"] = node_list
 test.instance_data["number_of_nodes"] = number_of_nodes
 
