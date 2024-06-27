@@ -25,12 +25,12 @@ logger.addHandler(console_handler)
 
 map_size = 10
 number_of_nodes = 10
-seed = 1025747
+seed = 8634452
 test = TestInstance("drone_sweep")
 test.initial_temp = 1000
 test.cooling_rate = 0.95
 test.min_temp = 0.1
-test.instance_data["fleet_size"] = 2
+test.instance_data["fleet_size"] = 4
 test.instance_data["route_max_cost"] = 42.5
 
 random_seed(seed)
