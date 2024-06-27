@@ -1,3 +1,4 @@
 matplotlib
 networkx
 numpy==1.26.4
+slh_framework @ git+https://github.com/pablo-grande/slh_framework.git@main
